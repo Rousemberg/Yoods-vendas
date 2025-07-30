@@ -1,4 +1,4 @@
-# yoodsV1
+# YOODS
 
 Yoods
 

@@ -1,0 +1,89 @@
+[
+  {
+    "id":"1",
+    "nome": "Básico",
+	"atendimento": "Recursos essenciais para você experimentar nossa plataforma",
+	"adesao": "0",
+	"mensalidade": "0",
+	"recursos": "Recursos disponíveis",
+    "detalhes": [
+      "Criação de aulas com IA",
+      "Criação de questões com IA",
+      "Estruturação de módulos Criação de 1 curso com até 10 aulas",
+      "Inclusão de até 20 questões em curso",
+      "Inscrição de até 10 alunos",
+      "Landing page para cursos",
+      "Relatório analítico Controle de temas e competências"
+    ],
+    "rodape": "* Adicione créditos para personalizar com IA", 
+    "cor": "#4DBE9A"
+  },
+  {
+    "id":"2",
+    "nome": "Escola I",
+	"atendimento": "Atendimento de até 200 alunos",
+	"adesao": "R$ 3.450,00",
+	"mensalidade": "R$ 800,00",
+	"recursos": "Todos os recursos do plano Básico, mais suporte técnico prioritário",
+    "detalhes": [
+      "Aulas ilimitadas",
+      "Questões ilimitadas",
+      "Personalização Cognitiva",
+      "Suporte operacional",
+      "Criação de até 8 cursos sem limite de aulas",
+      "1.000 créditos mensais para personalizar aprendizagem com nossa IA"
+    ],
+    "rodape": "* Adicione mais créditos se precisar",
+    "cor": "#3560F2"
+  },
+ {
+    "id":"3",
+    "nome": "Escola II",
+	"atendimento": "Atendimento de até 500 alunos",
+	"adesao": "R$ 3.450,00",
+	"mensalidade": "R$ 1.250,00",
+	"recursos": "Todos os recursos do plano Escola I, mais o dobro de créditos para personalizar aprendizagem",
+    "detalhes": [
+      "Criação de até 15 cursos sem limite de aulas",
+      "2.000 créditos mensais para personalizar aprendizagem com nossa IA"
+    ],
+    "rodape": "* Adicione mais créditos se precisar",
+    "cor": "#8200DA"
+  },
+  {
+    "id":"4",
+    "nome": "Business",
+	"atendimento": "Atendimento de até 1500 alunos",
+	"adesao": "R$ 8.750,00",
+	"mensalidade": "R$ 2.320,00",
+	"recursos": "Todos os recursos do plano Escola II, suporte técnico prioritário e acompanhamento premium",
+	"detalhes": [
+      "Aulas ilimitadas",
+      "Questões ilimitadas",
+      "Personalização Cognitiva",
+      "Suporte operacional",
+      "Criação de até 20 cursos",
+      "5.000 créditos mensais para personalizar aprendizagem com nossa IA"
+    ],
+    "rodape": "*  Adicione mais créditos se precisar",
+    "cor": "#FF6900"
+  },
+  { 
+    "id":"5",
+    "nome": "Company",
+	"atendimento": "Atendimento de até 3000 alunos",
+	"adesao": "R$ 8.750,00",
+	"mensalidade": "R$ 2.990,00",
+	"recursos": "Todos os recursos do plano Business, mais suporte técnico prioritário e acompanhamento premium",
+	"detalhes": [
+       "Aulas ilimitadas",
+      "Questões ilimitadas",
+      "Personalização Cognitiva",
+      "Suporte operacional",
+      "Cursos ilimitados",
+      "10.000 créditos mensais para personalizar aprendizagem com nossa IA"
+    ],
+    "rodape": "* Adicione créditos para personalizar com IA",
+    "cor": "#F0B000"
+  }
+]
