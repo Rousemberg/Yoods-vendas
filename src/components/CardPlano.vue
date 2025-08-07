@@ -1,19 +1,25 @@
 <script lang="ts">
 import type IPlanos from '@/interfaces/IPlanos';
 import type { PropType } from 'vue';
-import PlanoSelecionado from './PlanoSelecionado.vue';
-
 
 export default {
   props: {
+      //plano: Object
       plano: {type:Object as PropType<IPlanos>, required: true}
   },
-    components: {PlanoSelecionado}
+  methods: {
+    carrega (codigo) {
+      this.$store.commit('buscadados', codigo )      
+    }
+  },
+
+ 
 }
 </script>
 
 
 <template>
+
   <article class="categoria" >
       <header class="categoria__cabecalho">
         <h2 class="title is-3" :style="{ color: plano.cor }">
@@ -44,8 +50,8 @@ export default {
           </li>
         </ul>
         <div class="buttons are-medium button-end">
-          <router-link :to="{name: 'Planos', params: { id: '1' } }">
-          <button class="button  is-normal" :style="{ background: plano.cor, color: '#ffff' }" >
+          <router-link :to="{name: 'Termos', params: { id: plano.id } }">
+          <button class="button  is-normal" :style="{ background: plano.cor, color: '#ffff' }" @click="carrega(plano.id)" >
              <div v-if="plano.adesao != '0'">
             Contratar Plano  {{ plano.nome }}
             </div>

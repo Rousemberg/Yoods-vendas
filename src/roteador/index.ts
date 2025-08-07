@@ -1,43 +1,50 @@
 
-import { type RouteRecordRaw, createRouter, createWebHashHistory  } from "vue-router";
+import { type RouteRecordRaw, createRouter, createWebHashHistory } from "vue-router";
 import Planos from "@/views/Planos.vue";
 import PlanoSelecionado from "@/views/PlanoSelecionado.vue";
+import Finalizacao from "@/views/Finalizacao.vue";
+import PessoaFisica from "@/components/PessoaFisica.vue";
+import PessoaJuridica from "@/components/PessoaJuridica.vue";
+import Termos from "@/views/Termos.vue";
+import TermoAceite from "@/components/TermoAceite.vue";
 
-const rotas:RouteRecordRaw[] = [
+
+const rotas: RouteRecordRaw[] = [
     {
         path: '/',
         name: 'Planos',
         component: Planos
     },
-     {
-        path: '/plano',
-        name: 'PlanoSelecionado',
-        component: PlanoSelecionado
-    },
-    /*
     {
-        path: '/projetos',
-        component: Projetos,
+        path: '/plano/:id',        
+        component: Termos,
         children: [
             {
                 path: '',
-                name: 'Projetos',
-                component: Lista
+                name: 'Termos',
+                component: TermoAceite
             },
             {
-                path: 'novo',
-                name: 'Novo projeto',
-                component: Formulario
+                path: 'fisica',
+                component: PessoaFisica
             },
             {
-                path: ':id',
-                name: 'Editar projeto',
-                component: Formulario,
-                props: true
+                path: 'juridica',
+                component: PessoaJuridica
             },
         ]
+    },
+    {
+        path: '/finalizador',
+        name: 'finalizador',
+        component: Finalizacao
+    },
+    {
+        path: '/PlanoSelecionado',
+        component: PlanoSelecionado,
+       
     }
-        */
+
 ]
 
 
